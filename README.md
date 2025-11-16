@@ -6,12 +6,12 @@ This project automates the creation of seamless, georeferenced mosaics from mult
 **Perfect for:** Satellite imagery analysis, orthomosaic generation, multi-source raster consolidation, and large-scale geospatial data processing.
 
 ## Key Features
-- ✅ **Metadata Validation:** Automatically detects and reports CRS and resolution mismatches across tiles
-- ✅ **Intelligent Resampling:** Uses cubic interpolation to ensure smooth, high-quality output when resolution differs
-- ✅ **Seamless Merging:** Combines adjacent tiles into a single coherent raster
-- ✅ **Compression:** Automatically compresses output with LZW encoding for efficient storage
-- ✅ **Visualization:** Displays the final mosaic with proper geospatial metadata
-- ✅ **Robust Error Handling:** Validates all inputs and provides detailed error messages
+-  **Metadata Validation:** Automatically detects and reports CRS and resolution mismatches across tiles
+-  **Intelligent Resampling:** Uses cubic interpolation to ensure smooth, high-quality output when resolution differs
+-  **Seamless Merging:** Combines adjacent tiles into a single coherent raster
+-  **Compression:** Automatically compresses output with LZW encoding for efficient storage
+-  **Visualization:** Displays the final mosaic with proper geospatial metadata
+-  **Robust Error Handling:** Validates all inputs and provides detailed error messages
 
 ## Requirements
 
@@ -164,9 +164,3 @@ To customize the workflow, edit these parameters in the notebook:
 
 ## License & Attribution
 This project uses open-source geospatial libraries. Ensure compliance with respective licenses when redistributing.
-
-## Support & Contributions
-For issues, enhancements, or contributions, please ensure:
-- Input tiles are valid GeoTIFFs with proper georeferencing
-- All dependencies are correctly installed
-- Sufficient disk space for output files
